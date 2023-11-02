@@ -1,0 +1,19 @@
+h1,h2{color: white;}
+
+h1,h2,h3,p,nav{text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+h1,h2,h3{font-size: 3vw;}
+
+a,p{font-size: 2vw;}
+
+ul{padding: 0%}
+
+header{background-color: blue;}
+
+img{width: 30%;}
+
+.center{display: block; margin-left: auto; margin-right: auto;}
+
+section{border: 1px solid black;}
+
+a{color: white;}
