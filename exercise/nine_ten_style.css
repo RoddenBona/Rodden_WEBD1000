@@ -1,0 +1,3 @@
+button.button1{background-color: yellow; color: blueviolet;border: 10px black solid;}
+
+button.button1:hover{background-color: blueviolet;color: yellow;}
