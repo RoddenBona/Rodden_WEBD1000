@@ -4,87 +4,72 @@ Author: Rodden Bona
 ID: W0461260
 Project: Responsive Ride Sharing app with Bootstrap 5
 Version: HTML 5
-Date: Nov 15 2023
+Date: Nov 28 2023
 -->
 
 <html>
     <head>
         <title>NSCC ride share</title>
-        <link rel="stylesheet" type="text/css" href="style_ride.css">
+
         <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@5.3/dist/css/bootstrap.min.css"> 
         <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style_ride.css">
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial scale=1.0">
     </head>
     <body>
-        <header>
-            <h1> NSCC Ride Sharing </h1>
-            <div class="container"></div>
-        </header>
-        <nav class="navbar-expand-lg navbar-light, bg-light">
-            <button class="navbar-toggler">
-            <span class="navbar=navbar-toggler-icon"></span>
-            </button>
-            <div id="navbarNAV" class="navbar-collapse">       
-                <ul class="navbar-nav"> 
-                    <li class="nav-item"> <a class="navbar-brand" href=""> Home </a> </li>
-                    <li class="nav-item"> <a class="navbar-brand" href=""> Give a ride </a> </li>
-                    <li class="nav-item"> <a class="navbar-brand" href=""> Need a ride </a> </li>
-                    <li class="nav-item"> <a class="navbar-brand" href=""> FAQ </a> </li>
-                    <li class="nav-item"> <a class="navbar-brand" href=""> Safety </a> </li>
-                </ul>
+        <nav class="navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <div class="dropdown">
+                <button class="navbar-toggler">
+                    <span class ="navbar-toggler-icon">More</span>
+                </button>
+                <div class="dropdown-content navbar-collapse" id = "navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li> 
+                        <li class="nav-item"><a class="nav-link" href="#">Need a ride?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Give a ride</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>  
+                        <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                </div>
             </div>
         </nav>
-        
         <main>
-            <section>
-                <div id="Drive" class="dropdown">
-                    <h2>Become a driver</h2>
-                    <li class="dropdown-menu">
-                        <a href="">Apply now to become a driver</a>
-                    </li>
-                </div>
-            </section>   
-
-            <section>
-                <h2>Request a ride</h2>
-                <div id="Ride" class="dropdown">
-                    <li class="dropdown-menu">
-                        <a href="">Need a ride? No problem</a>
-                    </li>
-                </div>
+            <section id ="hero">
+                <div class="container">
+                    <h1>TEST Hero</h1>
+                </div> 
             </section>
 
-            <article>
-                <div id="FAQ">
-                    <h2>FAQ</h2>
-                    <p>Q: Is the Ride Share app free to use</p>
-                    <p>A: Yes. The NSCC Ride Share App is completely free to use</p>
-                </div>       
-            </article>    
-
-            <section>
-                <div id="Safety" class="dropdown">
-                    <h2>Safety</h2>
-                    <li class="dropdown-menu">
-                        <a href="">Your safety is important to us</a>
-                    </li>
-                </div>
+            <section id ="drivers-riders">
+                <div class="container">
+                    <h1>TEST Ride</h1>
+                </div> 
             </section>
 
-<!-- Seems to ignore the prexisting styleshee in favor of either the css or js scripts. If not both
-Very annoyying and not sure how to fix at the moment. Need to resize the buttons and liekly change them to
-a different content style to look more correct to intended goal from instructor
+            <section id ="testimonies">
+                <div class="container">
+                    <h1>TEST Testimonies</h1>
+                </div> 
+            </section>
 
-update. putting my style sheet infront of the scripts will put priority to mine but also means other changes like
-the buttons becoming uncentered. Still rather annoying to deal with and not sure why this is how it works of all things-->
+            <section id ="faqs">
+                <div class="container">
+                    <h1>TEST FAQ</h1>
+                </div> 
+            </section>
 
-            <section>
-                <footer>
-                    <h3>Created by Rodden Bona</h3>
-                </footer>
-            </section>    
+            <footer id="safety">
+                <div class="container">
+                    <p>TEST Your safety is our priority here at Ride Share</p>
+                </div>
+            </footer>
         </main>
+
+
     </body>
+
 </html>
