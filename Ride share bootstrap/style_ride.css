@@ -18,3 +18,4 @@ a.nav-link{font-size: 25px; color: white;}
 div.container1{background-color: navy; border: 3px solid;}
 
 button.navbar-toggler{background-color: white; color: navy; border: 1px black solid;}
+button.navbar-toggler:hover{background-color: grey; color: midnightblue;}
