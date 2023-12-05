@@ -1,7 +1,8 @@
 div{display:flex;
     align-items: center;
     border: 8px;margin: auto;
-    padding-left: 15px;}
+    padding-left: 15px;
+}
 
 div.newDiv{border: 10px; border-style: solid;}
 
@@ -9,13 +10,16 @@ div.newDiv{border: 10px; border-style: solid;}
 div.relative {position: relative;
             width: 80px;
             height: 20px;
-            }
+}
 
 div.absolute{position: absolute;
             bottom: 35px;
             right: -15;
             width: 24px;
-            height: 90px;}
+            height: 90px;
+}
+
+div.container{align-items: center;}
 
 button.button1{background-color: darkviolet; color: gold; border: 2px solid;}
 button.button1:hover{background-color: lightsalmon; color: darkred;}
