@@ -1,0 +1,12 @@
+header{background-color: goldenrod;}
+
+h1,h2,a,p,section,nav{text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+li{padding-left: 15px; display: flexbox; margin-left: 15px;}
+
+.containerMain{display: inline-flex;
+                flex-direction: row;
+            }
+

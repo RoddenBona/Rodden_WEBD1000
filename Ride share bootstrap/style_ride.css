@@ -14,8 +14,7 @@ button.navbar-toggler{background-color: white; color: navy; border: 1px black so
 button.navbar-toggler:hover{background-color: grey; color: midnightblue;}
 
 .containerD_R{display: inline-flex;
-     flex-direction: row;
-
-}
+          flex-direction: row;
+          }
 
 .containerDrives,.containerRides{padding: 10px;}
