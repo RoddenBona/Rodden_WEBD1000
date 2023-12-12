@@ -1,4 +1,4 @@
-header{background-color: goldenrod;}
+header{background-color: goldenrod; border: 1px solid black;}
 
 h1,h2,a,p,section,nav{text-align: center;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -13,12 +13,12 @@ ul{list-style-type: none;}
                 justify-content: center;
             }
 
-.containerLeft{padding-right: 200px;}
-
-.left{display: inline-flex; padding: none;}
-
-.containerLinks{text-align: center; margin-right: 90px; margin-left: 50px;}
+.containerLeft{background-size: none;}
 
 body{background-color: orchid;}
 
-.right{margin-right: 125px;}
+footer{border: 1px solid black; background-color: goldenrod;}
+
+.right{padding-right: 30vw;}
+
+.footerLinks{text-align: center;}
